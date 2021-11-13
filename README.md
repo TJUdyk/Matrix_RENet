@@ -134,8 +134,7 @@ Our project references the codes in the following repos:
 * Yang _et al_., [VCN](https://github.com/gengshan-y/VCN)
 
 ## :love_letter: Acknowledgement
-We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD), and we really appreciate it :smiley:.
-We also sincerely thank all the ICCV reviewers, especially R#2, for valuable suggestions. 
+We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD)
 CSDN解释的网址：https://blog.csdn.net/qq_42578970/article/details/120875948（2021，10，21）
 
 ## :scroll: Citing RENet
