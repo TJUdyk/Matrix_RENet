@@ -1,13 +1,5 @@
 <div align="center">
-  <h1>Relational test Embedding for Few-Shot Classification <br> (ICCV 2021)</h1>
-</div>
-
-<div align="center">
-  <h3><a href=http://dahyun-kang.github.io>Dahyun Kang</a>, <a href=http://arunos728.github.io>Heeseung Kwon</a>, <a href=http://juhongm999.github.io>Juhong Min</a>, <a href=http://cvlab.postech.ac.kr/~mcho/>Minsu Cho</a></h3>
-</div>
-
-<div align="center">
-  <h4> <a href=https://arxiv.org/abs/2108.09666>[paper]</a>, <a href=http://cvlab.postech.ac.kr/research/RENet>[project hompage]</a></h4>
+  <h1>Relational test trest Embedding for Few-Shot Classification <br> (ICCV 2021)</h1>
 </div>
 
 
