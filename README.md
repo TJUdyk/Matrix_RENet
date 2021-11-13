@@ -2,7 +2,7 @@
   <h1>Relational test trest Embedding for Few-Shot Classification <br> (ICCV 2021)</h1>
 </div>
 
-## :bqcaihong,1=&#x1F308; ：高级人工智能作业
+## :scroll : 1=&#x1F308; ：高级人工智能作业 &#xcode;
 * 尝试针对这个项目进行一些测试和修改
 * 尝试使用Transformer进行修改这个项目
 
