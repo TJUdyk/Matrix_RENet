@@ -2,9 +2,12 @@
   <h1>Relational test trest Embedding for Few-Shot Classification <br> (ICCV 2021)</h1>
 </div>
 
+## :高级人工智能作业
+* 尝试针对这个项目进行一些测试和修改
+* 尝试使用Transformer进行修改这个项目
 
 ## :heavy_check_mark: Requirements
-* Ubuntu 16.04
+Ubuntu 16.04
 * Python 3.7
 * [CUDA 11.0](https://developer.nvidia.com/cuda-toolkit)
 * [PyTorch 1.7.1](https://pytorch.org)
@@ -136,14 +139,3 @@ Our project references the codes in the following repos:
 ## :love_letter: Acknowledgement
 * We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD)
 * CSDN解释的网址：https://blog.csdn.net/qq_42578970/article/details/120875948（2021，10，21）
-
-## :scroll: Citing RENet
-If you find our code or paper useful to your research work, please consider citing our work using the following bibtex:
-```
-@inproceedings{kang2021renet,
-    author   = {Kang, Dahyun and Kwon, Heeseung and Min, Juhong and Cho, Minsu},
-    title    = {Relational Embedding for Few-Shot Classification},
-    booktitle= {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    year     = {2021}
-}
-```
