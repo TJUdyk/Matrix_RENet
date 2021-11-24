@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.idea/
+.idea/*
+.Python
+build/
+experimentation
+experimentation/*
+dist/
+self_attention_cv.egg-info/
+.idea/modules.xml
+.idea/self_attention.iml
+venv

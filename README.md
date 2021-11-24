@@ -4,7 +4,8 @@
 
 ## :scroll: 高级人工智能作业  &#x1F308; 
 * 尝试针对这个项目进行一些测试和修改
-* 尝试使用Transformer进行修改这个项目
+* 尝试使用Visual Transformer的进行修改这个项目
+* 结合SSFormer对support和query进行修改
 
 ## :heavy_check_mark: Requirements
 Ubuntu 16.04
@@ -100,6 +101,14 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">82.58</td>
     <td align="center">71.61</td>
     <td align="center">85.28</td>
+    
+  </tr>
+  <tr>
+    <td>accuracy_SCR</td>
+    <td align="center">67.96</td>
+    <td align="center">82.13</td>
+    <td align="center">71.61</td>
+    <td align="center">85.28</td>
   </tr>
 </table>
 
@@ -122,6 +131,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">91.11</td>
     <td align="center">74.51</td>
     <td align="center">86.60</td>
+  </tr>
+  <tr>
+    <td>accuracy_SCR</td>
+    <td align="center">79.908</td>
+    <td align="center">90.762</td>
+    <td align="center">74.51</td>
+    <td align="center">87.397</td>
   </tr>
 </table>
 
