@@ -87,11 +87,11 @@ Training & testing a 5-way 5-shot model on the CIFAR dataset using 4 NVIDIA 2080
 
 Training & testing a 5-way 1-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **7.29h left**.
 
-Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **1.7h**.
 
-Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **1.16h**.
 
-Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **5.45h**.
 
 Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
 
