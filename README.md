@@ -80,7 +80,9 @@ For example, to train ReNet on the CUB dataset in the 5-way 1-shot setting:
 bash scripts/train/cub_5w1s.sh
 ```
 训练的记录参考：https://wandb.ai/tjudyk
-![训练记录]（https://github.com/TJUdyk/renet/blob/main/%E8%AE%AD%E7%BB%83%E8%AE%B0%E5%BD%95.png）
+
+![]（https://github.com/TJUdyk/renet/blob/main/%E8%AE%AD%E7%BB%83%E8%AE%B0%E5%BD%95.png）
+
 Training & testing a 5-way 5-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **4.32h left**.
 
 Training & testing a 5-way 1-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **7.29h left**.
