@@ -11,8 +11,12 @@
 Ubuntu 16.04
 * Python 3.7
 * [CUDA 11.0](https://developer.nvidia.com/cuda-toolkit)
-* [PyTorch 1.7.1](https://pytorch.org)
-
+* [PyTorch 1.7.1](https://pytorch.org) 1.0.1版本也可以跑
+* enipos 0.3.2 
+* torch 1.0.1
+* torchvision 0.2.2
+* wandb 0.12.6
+* tqdm 4.62.3
 
 ## :gear: Conda environmnet installation
 ```bash
@@ -75,12 +79,17 @@ For example, to train ReNet on the CUB dataset in the 5-way 1-shot setting:
 ```bash
 bash scripts/train/cub_5w1s.sh
 ```
-
-
-Training & testing a 5-way 1-shot model on the CUB dataset using a TitanRTX 3090 GPU takes **41m 30s**.
+训练的记录参考：https://wandb.ai/tjudyk
+Training & testing a 5-way 5-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **4.32h left**.
+Training & testing a 5-way 1-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **7.29h left**.
+Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
 
 ## :art: Few-shot classification results
 Experimental results on few-shot classification datasets with ResNet-12 backbone. We report average results with 2,000 randomly sampled episodes.
+
 
 <table>
   <tr>
@@ -175,6 +184,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">87.056</td>
   </tr>
   <tr>
+    <td>accuracy_Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
     <td>accuracy_ViTTransformer</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
@@ -201,7 +217,7 @@ Our project references the codes in the following repos:
 * Huang _et al_., [DCCNet](https://github.com/ShuaiyiHuang/DCCNet)
 * Yang _et al_., [VCN](https://github.com/gengshan-y/VCN)
 * chenhaoxing_.,[SSFormer](https://github.com/chenhaoxing/SSFormers)
-* yhu01/PT-MAP.,[SSFormer](https://github.com/TJUdyk/PT-MAP)
+* yhu01/PT-MAP.,[PT-MAP](https://github.com/TJUdyk/PT-MAP)
 
 ## :love_letter: Acknowledgement
 * We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD)
