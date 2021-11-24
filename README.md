@@ -90,10 +90,10 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
   <tr>
     <td>setups</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
+    <td>5-way 1-shot #24</td>
+    <td>5-way 5-shot #19</td>
+    <td>5-way 1-shot #16</td>
+    <td>5-way 5-shot #18</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -107,8 +107,36 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>accuracy_SCR</td>
     <td align="center">67.96</td>
     <td align="center">82.13</td>
-    <td align="center">71.61</td>
-    <td align="center">85.28</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_3*3kernel</td>
+    <td align="center">66.397</td>
+    <td align="center">82.533</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_ViTTransformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_SSF-Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
   </tr>
 </table>
 
@@ -120,10 +148,10 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
   <tr>
     <td>setups</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
+    <td>5-way 1-shot #15</td>
+    <td>5-way 5-shot #14</td>
+    <td>5-way 1-shot #12</td>
+    <td>5-way 5-shot #7</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -136,8 +164,29 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>accuracy_SCR</td>
     <td align="center">79.908</td>
     <td align="center">90.762</td>
-    <td align="center">74.51</td>
+    <td align="center">待测试</td>
     <td align="center">87.397</td>
+  </tr>
+  <tr>
+    <td>accuracy_3*3kernel</td>
+    <td align="center">79.68399</td>
+    <td align="center">91.037</td>
+    <td align="center">74.873</td>
+    <td align="center">87.056</td>
+  </tr>
+  <tr>
+    <td>accuracy_ViTTransformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_SSF-Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
   </tr>
 </table>
 
@@ -151,7 +200,10 @@ Our project references the codes in the following repos:
 * Ramachandran _et al_., [Stand-alone self-attention](https://github.com/leaderj1001/Stand-Alone-Self-Attention)
 * Huang _et al_., [DCCNet](https://github.com/ShuaiyiHuang/DCCNet)
 * Yang _et al_., [VCN](https://github.com/gengshan-y/VCN)
+* chenhaoxing_.,[SSFormer](https://github.com/chenhaoxing/SSFormers)
+* yhu01/PT-MAP.,[SSFormer](https://github.com/TJUdyk/PT-MAP)
 
 ## :love_letter: Acknowledgement
 * We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD)
 * CSDN解释的网址：https://blog.csdn.net/qq_42578970/article/details/120875948（2021，10，21）
+* 小样本图片分类的榜单：https://paperswithcode.com/task/few-shot-image-classification
