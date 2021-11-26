@@ -83,17 +83,17 @@ bash scripts/train/cub_5w1s.sh
 
 ![](https://github.com/TJUdyk/renet/blob/main/%E8%AE%AD%E7%BB%83%E8%AE%B0%E5%BD%95.png)
 
-Training & testing a 5-way 5-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **4.32h left**.
-
 Training & testing a 5-way 1-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **7.29h left**.
+
+Training & testing a 5-way 5-shot model on the CIFAR dataset using 4 NVIDIA 2080Ti GPU takes **4.32h left**.
 
 Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **1.7h**.
 
-Training & testing a 5-way 1-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **1.16h**.
+Training & testing a 5-way 5-shot model on the CUB dataset using 4 NVIDIA 2080Ti GPU takes **1.16h**.
 
 Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **5.45h**.
 
-Training & testing a 5-way 1-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **41m 30s**.
+Training & testing a 5-way 5-shot model on the ImageNet dataset using 4 NVIDIA 2080Ti GPU takes **2.61h**.
 
 ## :art: Few-shot classification results
 Experimental results on few-shot classification datasets with ResNet-12 backbone. We report average results with 2,000 randomly sampled episodes.
