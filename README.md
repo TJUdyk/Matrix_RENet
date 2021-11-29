@@ -155,6 +155,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
+  <tr>
+    <td>accuracy_CCT-Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
 </table>
 
 <table>
@@ -212,6 +219,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
+    <tr>
+    <td>accuracy_CCT-Transformer</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
 </table>
 
 
@@ -226,6 +240,7 @@ Our project references the codes in the following repos:
 * Yang _et al_., [VCN](https://github.com/gengshan-y/VCN)
 * chenhaoxing_.,[SSFormer](https://github.com/chenhaoxing/SSFormers)
 * yhu01/PT-MAP.,[PT-MAP](https://github.com/TJUdyk/PT-MAP)
+* alihassanijr [CCT](https://github.com/SHI-Labs/Compact-Transformers)
 
 ## :love_letter: Acknowledgement
 * We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD)
