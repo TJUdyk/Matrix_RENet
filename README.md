@@ -7,6 +7,7 @@
 * 尝试使用Visual Transformer的进行修改这个项目
 * 结合SSFormer对support和query进行修改
 
+
 ## :heavy_check_mark: Requirements
 Ubuntu 16.04
 * Python 3.7
@@ -121,7 +122,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     
   </tr>
   <tr>
-    <td>accuracy_SCR</td>
+    <td>accuracy_2channel_SCR</td>
     <td align="center">67.96</td>
     <td align="center">82.13</td>
     <td align="center">待测试</td>
@@ -135,7 +136,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
   </tr>
   <tr>
-    <td>accuracy_Transformer</td>
+    <td>accuracy_3channel_SCR</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
@@ -185,9 +186,9 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">86.60</td>
   </tr>
   <tr>
-    <td>accuracy_SCR</td>
+    <td>accuracy_3channel_SCR</td>
     <td align="center">79.908</td>
-    <td align="center">90.762</td>
+    <td align="center">91.9</td>
     <td align="center">待测试</td>
     <td align="center">87.397</td>
   </tr>
@@ -199,7 +200,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">87.056</td>
   </tr>
   <tr>
-    <td>accuracy_Transformer</td>
+    <td>accuracy_3channel_SCR</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
