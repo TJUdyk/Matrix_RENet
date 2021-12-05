@@ -194,7 +194,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
   <tr>
     <td>accuracy_2*3kernel</td>
-    <td align="center" color="red">81.87</td>
+    <td align="center" ><font color="red">81.87</font></td>
     <td align="center">91.037</td>
     <td align="center">74.873</td>
     <td align="center">87.056</td>
