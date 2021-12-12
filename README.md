@@ -122,7 +122,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     
   </tr>
   <tr>
-    <td>accuracy_2channel_SCR</td>
+    <td>accuracy_3channel</td>
     <td align="center">67.96</td>
     <td align="center">82.13</td>
     <td align="center">待测试</td>
@@ -167,7 +167,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">86.60</td>
   </tr>
   <tr>
-    <td>accuracy_2channel_SCR</td>
+    <td>accuracy_3channel</td>
     <td align="center">79.908</td>
     <td align="center">91.9</td>
     <td align="center">74.38532/65.527</td>
@@ -175,7 +175,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
   <tr>
     <td>accuracy_2*3kernel</td>
-    <td align="center"><font color="red">81.87</font></td>
+    <td align="center">81.87</td>
     <td align="center">91.037</td>
     <td align="center">74.873</td>
     <td align="center">87.056</td>
@@ -183,6 +183,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   <tr>
     <td>accuracy_3channel_SCR</td>
     <td align="center">待测试</td>
+    <td align="center">91.66</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>accuracy_2branch_SCR</td>
+    <td align="center">84.02/81.56</td>
     <td align="center">91.66</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
