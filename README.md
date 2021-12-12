@@ -142,27 +142,8 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
-  <tr>
-    <td>accuracy_ViTTransformer</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-  <tr>
-    <td>accuracy_SSF-Transformer</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-  <tr>
-    <td>accuracy_CCT-Transformer</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
+
+
 </table>
 
 <table>
@@ -207,20 +188,6 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
   </tr>
  
-  <tr>
-    <td>accuracy_SSF-Transformer</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-    <tr>
-    <td>accuracy_CCT-Transformer</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
 </table>
 
 
