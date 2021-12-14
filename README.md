@@ -109,9 +109,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   <tr>
     <td>setups</td>
     <td>5-way 1-shot #24</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #19</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 1-shot #16</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #18</td>
+    <td>训练时间4块/2块</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -155,9 +159,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   <tr>
     <td>setups</td>
     <td>5-way 1-shot #15</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #14</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 1-shot #12</td>
+    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #7</td>
+    <td>训练时间4块/2块</td>
   </tr>
   <tr>
     <td>accuracy</td>
