@@ -111,11 +111,8 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>5-way 1-shot #24</td>
     <td>训练时间4块/2块</td>
     <td>5-way 5-shot #19</td>
-    <td>训练时间4块/2块</td>
     <td>5-way 1-shot #16</td>
-    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #18</td>
-    <td>训练时间4块/2块</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -159,13 +156,9 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   <tr>
     <td>setups</td>
     <td>5-way 1-shot #15</td>
-    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #14</td>
-    <td>训练时间4块/2块</td>
     <td>5-way 1-shot #12</td>
-    <td>训练时间4块/2块</td>
     <td>5-way 5-shot #7</td>
-    <td>训练时间4块/2块</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -212,6 +205,61 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
  
 </table>
 
+
+<table>
+  <tr>
+    <td>datasets</td>
+    <td colspan="2" align="center">miniImageNet</td>
+    <td colspan="2" align="center">tieredImageNet</td>
+  </tr>
+  <tr>
+    <td>setups</td>
+    <td>5-way 1-shot 训练时间</td>
+    <td>5-way 5-shot 训练时间</td>
+    <td>5-way 1-shot 训练时间</td>
+    <td>5-way 5-shot 训练时间</td>
+  </tr>
+  <tr>
+    <td>accuracy</td>
+    <td align="center">5.45h</td>
+    <td align="center">2.61h</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>  
+  </tr>
+  <tr>
+
+
+</table>
+
+<table>
+  <tr>
+    <td>datasets</td>
+    <td colspan="2" align="center">CUB-200-2011</td>
+    <td colspan="2" align="center">CIFAR-FS</td>
+  </tr>
+  <tr>
+    <td>setups</td>
+    <td>5-way 1-shot 训练时间</td>
+    <td>5-way 5-shot 训练时间</td>
+    <td>5-way 1-shot 训练时间</td>
+    <td>5-way 5-shot 训练时间</td>
+  </tr>
+  <tr>
+    <td>accuracy</td>
+    <td align="center">1.17h</td>
+    <td align="center">1.16h</td>
+    <td align="center">7.29h</td>
+    <td align="center">4.32h</td>
+  </tr>
+  <tr>
+    <td>SCE</td>
+    <td align="center">1.76h</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">7h</td>
+  </tr>
+ 
+</table>
 
 ## :mag: Related repos
 Our project references the codes in the following repos:
