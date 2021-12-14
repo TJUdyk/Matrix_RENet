@@ -196,7 +196,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
   <tr>
     <td>SCE</td>
-    <td align="center">待测试</td>
+    <td align="center">80.85508/78.46399/78.464 +- 0.446</td>
     <td align="center">待测试</td>
     <td align="center">待测试</td>
     <td align="center"> 92.12667/85.11066/78.24/85.111 +- 0.346</td>
