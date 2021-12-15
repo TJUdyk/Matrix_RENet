@@ -142,7 +142,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
-
+  <tr>
+    <td>SENet</td>
+    <td align="center">85.6/64.16534/66.01334/64.165 +- 0.433</td>
+    <td align="center">93.20445/79.84868/81.36001/79.849 +- 0.322</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
 
 </table>
 
