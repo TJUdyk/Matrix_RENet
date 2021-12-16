@@ -224,6 +224,11 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
 </table>
 
 
+Models         | CUB-200-2011      | CIFAR-FS          |
+-------------  | ----------------- | ----------------- |
+ResNet50       | 74.26             | 91.91             |
+ResNet50-CBAM  | 75.45             | 92.55             |
+
 <table>
   <tr>
     <td>datasets</td>
