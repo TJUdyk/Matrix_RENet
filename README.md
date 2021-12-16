@@ -110,11 +110,15 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>5-way 1-shot #24</td>
     <td>5-way 5-shot #19</td>
   </tr>
+   <tr>
+    <td>accuracy</td>
+    <td align="center">85.54</td>
+    <td align="center">85.54</td>
+  </tr>
   <tr>
     <td>accuracy</td>
     <td align="center">67.60</td>
     <td align="center">90.42666/81.554</td>
-    
   </tr>
   <tr>
     <td>accuracy_3channel</td>
@@ -154,8 +158,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>5-way 1-shot #15</td>
     <td>5-way 5-shot #14</td>
   </tr>
+    <tr>
+    <td>SOTA</td>
+    <td align="center">95.48</td>
+    <td align="center">96.43</td>
+  </tr>
   <tr>
-    <td>accuracy</td>
+    <td>basic</td>
     <td align="center">79.49</td>
     <td align="center">91.11</td>
   </tr>
@@ -218,8 +227,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>5-way 1-shot #12</td>
     <td>5-way 5-shot #7</td>
   </tr>
+    <tr>
+    <td>SOTA</td>
+    <td align="center">84.44</td>
+    <td align="center">91.86</td>
+  </tr>
   <tr>
-    <td>accuracy</td>
+    <td>Basic</td>
     <td align="center">74.51</td>
     <td align="center">86.60</td>
   </tr>
