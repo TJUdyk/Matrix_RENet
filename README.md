@@ -149,7 +149,13 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
-
+   <tr>
+    <td>CBAM</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
 </table>
 
 <table>
@@ -220,6 +226,20 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
     <td align="center">83.52222/73.06734/63.82666/73.067 +- 0.468</td>
     <td align="center">92.55112/85.64867/78.88/85.649 +- 0.339</td>
+  </tr>
+  <tr>
+    <td>ResNet_CBAM_SCR_1test</td>
+    <td align="center">87.40581/79.89802/82.08667/79.898 +- 0.430</td>
+    <td align="center">94.18842/90.61333/92.19333/90.613 +- 0.254</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
+  </tr>
+  <tr>
+    <td>ResNet_CBAM_SCR_2test</td>
+    <td align="center">待测试</td>
+    <td align="center">94.02898/91.51933/92.97333/91.519 +- 0.243</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
   </tr>
 </table>
 
