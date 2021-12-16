@@ -219,7 +219,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">84.59422/79.13735/82.14667/79.137 +- 0.437</td>
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
     <td align="center">83.52222/73.06734/63.82666/73.067 +- 0.468</td>
-    <td align="center">待测试</td>
+    <td align="center">92.55112/85.64867/78.88/85.649 +- 0.339</td>
   </tr>
 </table>
 
