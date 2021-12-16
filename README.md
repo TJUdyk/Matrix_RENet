@@ -143,202 +143,66 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td>datasets</td>
-    <td colspan="2" align="center">CUB-200-2011</td>
-    <td colspan="2" align="center">CIFAR-FS</td>
-  </tr>
-  <tr>
-    <td>setups</td>
-    <td>5-way 1-shot #15</td>
-    <td>5-way 5-shot #14</td>
-    <td>5-way 1-shot #12</td>
-    <td>5-way 5-shot #7</td>
-  </tr>
-  <tr>
-    <td>accuracy</td>
-    <td align="center">79.49</td>
-    <td align="center">91.11</td>
-    <td align="center">74.51</td>
-    <td align="center">86.60</td>
-  </tr>
-  <tr>
-    <td>accuracy_3channel</td>
-    <td align="center">79.908</td>
-    <td align="center">91.9</td>
-    <td align="center">74.38532/65.527</td>
-    <td align="center">87.397</td>
-  </tr>
-  <tr>
-    <td>accuracy_2*3kernel</td>
-    <td align="center">81.87</td>
-    <td align="center">91.037</td>
-    <td align="center">74.873</td>
-    <td align="center">87.056</td>
-  </tr>
-  <tr>
-    <td>accuracy_3channel_SCR</td>
-    <td align="center">待测试</td>
-    <td align="center">91.66</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-  <tr>
-    <td>accuracy_2branch_SCR</td>
-    <td align="center">84.02/81.56</td>
-    <td align="center">92.17</td>
-    <td align="center">80.8822/74.47/65.96667/74.470 +- 0.461</td>
-    <td align="center">90.31111/86.38734/79.95335/86.387 +- 0.333</td>
-  </tr>
-  <tr>
-    <td>SCE</td>
-    <td align="center">80.85508/78.46399/78.464 +- 0.446</td>
-    <td align="center">92.04346/89.636/91.10667/ 89.636 +- 0.268</td>
-    <td align="center">待测试</td>
-    <td align="center"> 92.12667/85.11066/78.24/85.111 +- 0.346</td>
-  </tr>
- <tr>
-    <td>SENet</td>
-    <td align="center">84.28985/77.97466/81.88/77.975 +- 0.439</td>
-    <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-  <tr>
-    <td>SENet</td>
-    <td align="center">84.59422/79.13735/82.14667/79.137 +- 0.437</td>
-    <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
-    <td align="center">83.52222/73.06734/63.82666/73.067 +- 0.468</td>
-    <td align="center">92.55112/85.64867/78.88/85.649 +- 0.339</td>
-  </tr>
-  <tr>
-    <td>ResNet_CBAM_SCR_1test</td>
-    <td align="center">87.40581/79.89802/82.08667/79.898 +- 0.430</td>
-    <td align="center">94.18842/90.61333/92.19333/90.613 +- 0.254</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-  <tr>
-    <td>ResNet_CBAM_SCR_2test</td>
-    <td align="center">待测试</td>
-    <td align="center">94.02898/91.51933/92.97333/91.519 +- 0.243</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
-  </tr>
-</table>
-
-
-
-
-<table>
-  <tr>
-    <td>datasets</td>
-    <td colspan="2" align="center">miniImageNet</td>
-    <td colspan="2" align="center">tieredImageNet</td>
-  </tr>
-  <tr>
-    <td>setups</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-  </tr>
-  <tr>
-    <td>accuracy</td>
-    <td align="center">5.45h</td>
-    <td align="center">2.61h</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>  
-  </tr>
-  <tr>
-
-
-</table>
-
 
 <table>
   <tr>
     <td>datasets</td>
     <td colspan="2" align="center">CUB-200-2011</td>
-    <td colspan="2" align="center">CIFAR-FS</td>
   </tr>
   <tr>
     <td>setups</td>
     <td>5-way 1-shot #15</td>
     <td>5-way 5-shot #14</td>
-    <td>5-way 1-shot #12</td>
-    <td>5-way 5-shot #7</td>
   </tr>
   <tr>
     <td>accuracy</td>
     <td align="center">79.49</td>
     <td align="center">91.11</td>
-    <td align="center">74.51</td>
-    <td align="center">86.60</td>
   </tr>
   <tr>
     <td>accuracy_3channel</td>
     <td align="center">79.908</td>
     <td align="center">91.9</td>
-    <td align="center">74.38532/65.527</td>
-    <td align="center">87.397</td>
   </tr>
   <tr>
     <td>accuracy_2*3kernel</td>
     <td align="center">81.87</td>
     <td align="center">91.037</td>
-    <td align="center">74.873</td>
-    <td align="center">87.056</td>
   </tr>
   <tr>
     <td>accuracy_3channel_SCR</td>
     <td align="center">待测试</td>
     <td align="center">91.66</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
   </tr>
   <tr>
     <td>accuracy_2branch_SCR</td>
     <td align="center">84.02/81.56</td>
     <td align="center">92.17</td>
-    <td align="center">80.8822/74.47/65.96667/74.470 +- 0.461</td>
-    <td align="center">90.31111/86.38734/79.95335/86.387 +- 0.333</td>
   </tr>
   <tr>
     <td>SCE</td>
     <td align="center">80.85508/78.46399/78.464 +- 0.446</td>
     <td align="center">92.04346/89.636/91.10667/ 89.636 +- 0.268</td>
-    <td align="center">待测试</td>
-    <td align="center"> 92.12667/85.11066/78.24/85.111 +- 0.346</td>
   </tr>
  <tr>
     <td>SENet</td>
     <td align="center">84.28985/77.97466/81.88/77.975 +- 0.439</td>
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
   </tr>
   <tr>
     <td>SENet</td>
     <td align="center">84.59422/79.13735/82.14667/79.137 +- 0.437</td>
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
-    <td align="center">83.52222/73.06734/63.82666/73.067 +- 0.468</td>
-    <td align="center">92.55112/85.64867/78.88/85.649 +- 0.339</td>
   </tr>
   <tr>
     <td>ResNet_CBAM_SCR_1test</td>
     <td align="center">87.40581/79.89802/82.08667/79.898 +- 0.430</td>
     <td align="center">94.18842/90.61333/92.19333/90.613 +- 0.254</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
   </tr>
   <tr>
     <td>ResNet_CBAM_SCR_2test</td>
     <td align="center">待测试</td>
     <td align="center">94.02898/91.51933/92.97333/91.519 +- 0.243</td>
-    <td align="center">待测试</td>
-    <td align="center">待测试</td>
   </tr>
 </table>
 
