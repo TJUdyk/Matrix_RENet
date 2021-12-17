@@ -204,7 +204,12 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
   </tr>
   <tr>
-    <td>SENet</td>
+    <td>SENet_CCA</td>
+    <td align="center">84.57972/78.53667/81.70667/78.537 +- 0.444</td>
+    <td align="center">test</td>
+  </tr>
+   <tr>
+    <td>SENet_CCA</td>
     <td align="center">84.59422/79.13735/82.14667/79.137 +- 0.437</td>
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
   </tr>
@@ -289,7 +294,44 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
   </tr>
 </table>
 
-
+<table>
+  <tr>
+    <td>CUB数据集测试</td>
+    <td>5-way 1-shot </td>
+    <td>5-way 5-shot </td>
+  </tr>
+  <tr>
+    <td>SCR_CCA</td>
+    <td>79.49</td>
+    <td>91.11</td>
+  </tr>
+  <tr>
+    <td>SCR_CCA_test</td>
+    <td>79.647</td>
+    <td>91.11</td>
+  </tr>
+  <tr>
+    <td>CBAM-ResNet12_SCR_CCA</td>
+    <td>79.898</td>
+    <td>5-way 5-shot </td>
+  <tr>
+    <td>SENET_CBAM_CCA</td>
+    <td>77.909</td>
+    <td>5-way 5-shot </td>
+  </tr>
+    <tr>
+    <td>SENET_CCA</td>
+    <td>78.537 +- 0.444</td>
+    <td>5-way 5-shot </td>
+  </tr>
+  </tr>
+    <tr>
+    <td>LSA_CCA</td>
+    <td>79.191 +- 0.438</td>
+    <td>5-way 5-shot </td>
+  </tr>
+  
+</table>
 
 ## :mag: Related repos
 Our project references the codes in the following repos:
