@@ -145,6 +145,11 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
+    <tr>
+    <td>ResNet_CBAM_SCR_2test</td>
+    <td align="center">86.99556/ 63.54933/66.29333</td>
+    <td align="center">66.293333</td>
+  </tr>
 </table>
 
 
@@ -285,42 +290,6 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
 </table>
 
 
-<table>
-  <tr>
-    <td>datasets</td>
-    <td colspan="2" align="center">CUB-200-2011</td>
-    <td colspan="2" align="center">CIFAR-FS</td>
-  </tr>
-  <tr>
-    <td>setups</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-    <td>5-way 1-shot</td>
-    <td>5-way 5-shot</td>
-  </tr>
-  <tr>
-    <td>accuracy</td>
-    <td align="center">1.17h</td>
-    <td align="center">1.16h</td>
-    <td align="center">7.29h</td>
-    <td align="center">4.32h</td>
-  </tr>
-  <tr>
-    <td>SCE</td>
-    <td align="center">1.76h</td>
-    <td align="center">1.12h</td>
-    <td align="center">待测试</td>
-    <td align="center">7h</td>
-  </tr>
-  <tr>
-    <td>SENet</td>
-    <td align="center">1.41h</td>
-    <td align="center">1h</td>
-    <td align="center">1.32h</td>
-    <td align="center">待测试</td>
-  </tr>
- 
-</table>
 
 ## :mag: Related repos
 Our project references the codes in the following repos:
