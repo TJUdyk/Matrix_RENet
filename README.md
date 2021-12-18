@@ -245,6 +245,11 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">79.581 +- 0.425</td>
     <td align="center">5-way 5-shot </td>
   </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM2_2x2_CCA</td>
+    <td align="center"> 86.43478/89.55668/82.11333/79.557 +- 0.439</td>
+    <td align="center">95.13046/92.38667/91.50067/| 91.501 +- 0.234 </td>
+  </tr>
 </table>
 
 
