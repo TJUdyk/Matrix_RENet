@@ -150,6 +150,12 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">86.99556/ 63.54933/66.29333</td>
     <td align="center">66.293333</td>
   </tr>
+  </tr>
+    <tr>
+    <td>SCR_NOSC_CCA</td>
+    <td align="center">83.73777/65.88066/67.76001/ 65.881 +- 0.437</td>
+    <td align="center">66.293333</td>
+  </tr>
 </table>
 
 
@@ -208,7 +214,7 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">84.57972/78.53667/81.70667/78.537 +- 0.444</td>
     <td align="center">test</td>
   </tr>
-   <tr>
+  <tr>
     <td>SENet_CCA</td>
     <td align="center">84.59422/79.13735/82.14667/79.137 +- 0.437</td>
     <td align="center">93.94204/ 90.32533/91.09332/90.325 +- 0.256</td>
@@ -222,6 +228,22 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>ResNet_CBAM_SCR_2test</td>
     <td align="center">待测试</td>
     <td align="center">94.02898/91.51933/92.97333/91.519 +- 0.243</td>
+  </tr>
+
+  <tr>
+    <td>LSA_CCA</td>
+    <td align="center">79.191 +- 0.438</td>
+    <td align="center">5-way 5-shot </td>
+  </tr>
+  <tr>
+    <td>SCR_NOSC_CCA</td>
+    <td align="center">79.131 +- 0.430</td>
+    <td align="center">5-way 5-shot </td>
+  </tr>
+  <tr>
+    <td>SCR_NOSC_CBAM4_CCA</td>
+    <td align="center">79.581 +- 0.425</td>
+    <td align="center">5-way 5-shot </td>
   </tr>
 </table>
 
@@ -310,26 +332,8 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>79.647</td>
     <td>91.11</td>
   </tr>
-  <tr>
-    <td>CBAM-ResNet12_SCR_CCA</td>
-    <td>79.898</td>
-    <td>5-way 5-shot </td>
-  <tr>
-    <td>SENET_CBAM_CCA</td>
-    <td>77.909</td>
-    <td>5-way 5-shot </td>
-  </tr>
-    <tr>
-    <td>SENET_CCA</td>
-    <td>78.537 +- 0.444</td>
-    <td>5-way 5-shot </td>
-  </tr>
-  </tr>
-    <tr>
-    <td>LSA_CCA</td>
-    <td>79.191 +- 0.438</td>
-    <td>5-way 5-shot </td>
-  </tr>
+
+
   
 </table>
 
