@@ -111,9 +111,14 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>5-way 5-shot #19</td>
   </tr>
    <tr>
-    <td>accuracy</td>
+    <td>SOTA</td>
     <td align="center">85.54</td>
-    <td align="center">82.58</td>
+    <td align="center">91.53</td>
+  </tr>
+   <tr>
+    <td>test_4_2080Ti</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
   </tr>
   <tr>
     <td>accuracy</td>
@@ -183,6 +188,11 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>basic</td>
     <td align="center">79.49</td>
     <td align="center">91.11</td>
+  </tr>
+   <tr>
+    <td>test_4_2080Ti</td>
+    <td align="center">待测试</td>
+    <td align="center">待测试</td>
   </tr>
   <tr>
     <td>accuracy_3channel</td>
@@ -260,6 +270,21 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">85.86956/79.54266/82.50667/79.543 +- 0.428</td>
     <td align="center">5-way 5-shot</td>
   </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM3*3_2x2_CCA_lsa</td>
+    <td align="center">77.53623/75.37998/77.20667/75.380 +- 0.459</td>
+    <td align="center">5-way 5-shot</td>
+  </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM7*7+5*5+3*3_2x2_CCA_lsa</td>
+    <td align="center">81.94202/77.50199/80.81334/77.502 +- 0.432</td>
+    <td align="center">5-way 5-shot</td>
+  </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM7*7+5*5+3*3_2x2_CCA</td>
+    <td align="center">77.84057/74.30067/77.75333/74.301 +- 0.463</td>
+    <td align="center">5-way 5-shot</td>
+  </tr>
 </table>
 
 
@@ -283,6 +308,11 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td>Basic</td>
     <td align="center">74.51</td>
     <td align="center">86.60</td>
+  </tr>
+   <tr>
+    <td>test_4_2080Ti</td>
+    <td align="center">66.37332/68.38466/58.23333/68.385 +- 0.471</td>
+    <td align="center">91.83331/86.964/79.8/86.964 +- 0.32986.964 +- 0.329</td>
   </tr>
   <tr>
     <td>accuracy_3channel</td>
@@ -329,28 +359,19 @@ Experimental results on few-shot classification datasets with ResNet-12 backbone
     <td align="center">待测试</td>
     <td align="center">待测试</td>
   </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM1_2x2_CCA</td>
+    <td align="center">66.48888/67.91466/58.82667/67.915 +- 0.481</td>
+    <td align="center">91.66888/87.16999/79.92/ 87.170 +- 0.324</td>
+  </tr>
+  <tr>
+    <td>SCR_NOSC_1x1_CBAM7*7+5*5+3*3_2x2_CCA</td>
+    <td align="center">66.55778/67.57532/57.91333/ 67.575 +- 0.473</td>
+    <td align="center">92.30224/86.63801/ 79.30667/86.638 +- 0.321</td>
+  </tr>
 </table>
 
-<table>
-  <tr>
-    <td>CUB数据集测试</td>
-    <td>5-way 1-shot </td>
-    <td>5-way 5-shot </td>
-  </tr>
-  <tr>
-    <td>SCR_CCA</td>
-    <td>79.49</td>
-    <td>91.11</td>
-  </tr>
-  <tr>
-    <td>SCR_CCA_test</td>
-    <td>79.647</td>
-    <td>91.11</td>
-  </tr>
 
-
-  
-</table>
 
 ## :mag: Related repos
 Our project references the codes in the following repos:
